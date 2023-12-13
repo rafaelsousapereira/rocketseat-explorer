@@ -1,7 +1,6 @@
-<div align="center">
-  <h1> Programa Rocketseat Explorer: Desenvolvimento Full Stack 🚀</h1>
+<div>
+  <h1>Programa Explorer - Rocketseat: Formação Full-Stack 🚀</h1>
   <p align="right"><b>Início: 12/2023</b></p>
-</div>
   <p><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></p>
 
   
@@ -61,3 +60,4 @@
     <p align="center">Feito com 💜 by <a href="https://github.com/rafaelsousapereira">Rafael Sousa Pereira</a></p>
     <p align="right"> <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg"></p>
   </footer>
+</div>
