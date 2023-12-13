@@ -1,7 +1,9 @@
-<div>
+<div align="center">
   <h1> Programa Rocketseat Explorer: Desenvolvimento Full Stack 🚀</h1>
   <p align="right"><b>Início: 12/2023</b></p>
+</div>
   <p><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></p>
+
   
   <h2>Sobre o Programa:</h2>
   <p>
