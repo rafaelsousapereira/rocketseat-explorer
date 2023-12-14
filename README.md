@@ -52,7 +52,12 @@
       <a href="#">Stage 01</a>
     </li>
     <li>
-      <a href="#">Stage 02</a>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-01">Stage 02</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-01/Desafio-01">Stage 02: Desafio 01</a>
     </li>
   </ul>
 
