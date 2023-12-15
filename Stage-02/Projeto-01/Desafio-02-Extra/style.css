@@ -1,0 +1,64 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #3F3D56;
+
+  margin: 0;
+}
+
+#main {
+  width: 626px;
+  
+  margin: 64px auto;
+
+  text-align: center;
+}
+
+#main h1 {
+  font-family: Dosis, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#main h1 span {
+  color: #EE24FF;
+  font-weight: 700;
+}
+
+#main p {
+  margin: 16px 36px 0 50px;
+
+  font-weight: 400px;
+  font-size: 15px;
+
+  line-height: 22px;
+}
+
+.line {
+  width: 391px;
+  height: 0px;
+
+  margin: 0 auto 16px;
+
+  border: 1px solid #ECEFF2;
+}
+
+#footer {  
+  text-align: center;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  line-height: 22px;
+}
+
+
+#footer a {
+  color: #3F3D56;
+  text-decoration: none;
+
+  margin-left: 42px;
+}
+
+#footer img {
+  margin-top: 40px;
+}
