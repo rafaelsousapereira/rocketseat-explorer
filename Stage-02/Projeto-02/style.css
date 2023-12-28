@@ -39,6 +39,12 @@ h1, ul {
   font-family: 'Mulish', sans-serif;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 {
   font-size: 49px;
   line-height: 56px;
@@ -59,16 +65,40 @@ section p {
   line-height: 28px;
 
   width: 438px;
+
+  margin: 40px 0;
 }
 
 button {
+  color: #fff;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+  padding: 14px 32px 15px;
+
+  background: #69B99D;
+  border: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #49a183;
 }
 
 footer {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+
+  margin: 80px;
 }
 
 footer a {
