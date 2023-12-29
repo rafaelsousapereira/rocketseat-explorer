@@ -48,9 +48,11 @@
   
   <h4>Repositórios/Deploy</h4>
   <ul>
+    <h5>Fundamentos da Web</h5>
     <li>
       <a href="#">Stage 01</a>
     </li>
+    <h5>Introdução ao HTML e CSS</h5>
     <li>
       <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02">Stage 02</a>
     </li>
