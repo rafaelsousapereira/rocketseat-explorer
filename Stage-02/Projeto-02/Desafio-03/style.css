@@ -10,7 +10,7 @@ body {
 .page {
   width: 1280px;
 
-  margin: auto;
+  margin: 0 auto;
 }
 
 nav {
@@ -33,6 +33,70 @@ a {
   text-decoration: none;
 }
 
-section p {
+main {
+  width: 1092px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+main img {
+  width: 401px;
+}
+
+main section h1 {
+  margin-left: 82px;
+
+  font-size: 36px;
+  font-weight: 700;
+  
+  text-align: center;
+  line-height: 40px;
+}
+
+span {
+  color: #00BFA6;
+}
+
+main section p {
+  width: 604px;
+
+  margin-left: 82px;
+
+  color: #C2C2C2;
+
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+  line-height: 28px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+
+  margin-bottom: 23px;
+}
+
+.line {
+  background: #00BFA6;
+
+  width: 568px;
+  height: 1px;
+
+  text-align: center;
+
+  margin: 157px auto 27px;
+}
+
+#padlock {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+
+  margin: 0 0 20px 20px;
 }
