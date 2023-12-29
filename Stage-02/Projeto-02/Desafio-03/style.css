@@ -1,6 +1,7 @@
 body {
   color: white;
-  
+  font-family: 'JetBrains Mono', monospace;
+
   margin: 0;
   
   background: #2C2B3D;
@@ -30,4 +31,8 @@ ul {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
 }
