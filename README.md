@@ -66,6 +66,9 @@
     <li>
       <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-02/Desafio-01" target="_blank">Stage 02: Projeto 02 - Desafio 01</a>
     </li>
+    <li>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-02/Desafio-02" target="_blank">Stage 02: Projeto 02 - Desafio 02</a>
+    </li>
   </ul>
     <hr />
   <footer>
