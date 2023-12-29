@@ -57,13 +57,17 @@
   </ul>
   <ul>
     <li>
-      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-01/Desafio-01">Stage 02: Desafio 01</a>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-01/Desafio-01">Stage 02: Projeto 01 - Desafio 01</a>
     </li>
     <li>
-      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-01/Desafio-02-Extra">Stage 02: Desafio 02 - Extra</a>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-01/Desafio-02-Extra">Stage 02: Projeto 01 - Desafio 02 - Extra</a>
+    </li>
+    <br />
+    <li>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-02/Desafio-01" target="_blank">Stage 02: Projeto 02 - Desafio 01</a>
     </li>
   </ul>
-
+    <hr />
   <footer>
     <p align="center">Feito com 💜 by <a href="https://github.com/rafaelsousapereira">Rafael Sousa Pereira</a></p>
     <p align="right"> <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg"></p>
