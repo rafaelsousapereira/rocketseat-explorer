@@ -48,11 +48,14 @@
   
   <h4>Repositórios/Deploy</h4>
   <ul>
-    <h5>Fundamentos da Web</h5>
+    <span>Fundamentos da Web</span>
     <li>
       <a href="#">Stage 01</a>
     </li>
-    <h5>Introdução ao HTML e CSS</h5>
+  </ul>
+  
+  <ul>
+    <span>Introdução ao HTML e CSS</span>
     <li>
       <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02">Stage 02</a>
     </li>
@@ -73,6 +76,13 @@
     </li>
     <li>
       <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-02/Projeto-02/Desafio-03" target="_blank">Stage 02: Projeto 02 - Desafio 03</a>
+    </li>
+  </ul>
+  
+  <ul>
+    <span>Avançando no HTML e CSS</span>
+    <li>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03">Stage 03</a>
     </li>
   </ul>
     <hr />
