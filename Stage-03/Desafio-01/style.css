@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: #EFEFEF;
+}
+
+body::before {
+  content: '';
+
+  background: #535971;
+  
+  height: 436px;
+  width: 100%;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  color: #FFF;
+  width: 417px;
+
+  margin-top: 140px;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form {
+  background: #FFF;
+
+  min-height: 300px;
+
+  border-radius: 20px 20px 0px 0px;
+
+  margin-top: 58px;
+}
