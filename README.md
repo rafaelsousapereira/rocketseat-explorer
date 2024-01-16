@@ -1,5 +1,5 @@
 <div>
-  <h1>Programa Explorer - Rocketseat: Formação Full-Stack 🚀</h1>
+  <h1>Trilha Explorer - Rocketseat: Formação Full-Stack 🚀</h1>
   <p align="right"><b>Início: 12/2023</b></p>
   <p><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></p>
 
