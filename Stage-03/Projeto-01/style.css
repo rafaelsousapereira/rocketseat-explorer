@@ -222,7 +222,7 @@ footer {
   border-radius: 0 0 8px 8px;
 }
 
-footer .buttom {
+footer .button {
   height: 56px;
 
   border-radius: 8px;
@@ -238,7 +238,13 @@ footer .buttom {
   line-height: 26px;
 }
 
-footer .buttom:hover {
+footer .button:hover {
   background: #10bb5d;
   cursor: pointer;
+}
+
+/* Input validations */
+
+input:invalid {
+  border: 1px solid #FF1010;
 }
