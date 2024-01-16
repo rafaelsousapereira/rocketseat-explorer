@@ -44,7 +44,7 @@
   
   <h3>Tecnologias:</h3>
   
-  [![Tecnologias](https://skills.thijs.gg/icons?i=html,css,js,react,nodejs,styledcomponents,sqlite,figma,git,github,jest,heroku,netlify)](https://skills.thijs.gg)
+  [![Tecnologias](https://skills.thijs.gg/icons?i=html,css,js,figma,react,nodejs,styledcomponents,sqlite,git,github,jest,heroku,netlify)](https://skills.thijs.gg)
   
   <h4>Repositórios/Deploy</h4>
   <ul>
