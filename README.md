@@ -89,6 +89,9 @@
 
   <ul>
     <span>Desafios do Stage 03:</span>
+    <li>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-01" target="_blank">Stage 03: Projeto 01 - Desafio 01</a>
+    </li>
   </ul>
   <hr />
   <footer>
