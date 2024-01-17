@@ -67,6 +67,7 @@ form {
 
 fieldset {
   border: none;
+  margin-bottom: 30px;
 }
 
 fieldset legend {
@@ -130,7 +131,7 @@ fieldset legend {
 }
 
 .input-wrapper span {
-  color: #77757e;
+  color: #827f8a;
 
   font-size: 12px;
   font-weight: 400;
