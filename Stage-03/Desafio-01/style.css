@@ -89,6 +89,16 @@ fieldset legend {
   gap: 16px;
 }
 
+.fieldset-wrapper p {
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+
+  margin-bottom: -10px;
+}
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
@@ -138,4 +148,14 @@ fieldset legend {
   line-height: 20px;
 
   margin-left: 9px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
+  margin-right: 22px;
 }
