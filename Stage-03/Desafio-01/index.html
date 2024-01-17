@@ -29,7 +29,12 @@
             <div class="input-group">
               <div class="input-wrapper">
                 <label for="event-name">Nome</label>
-                <input type="text" id="event-name" />
+                <input 
+                  type="text" 
+                  id="event-name"
+                  required
+                  minlength="4"
+                />
               </div>
   
               <div class="input-wrapper">
@@ -40,12 +45,21 @@
   
             <div class="input-wrapper">
               <label for="event-email">E-mail <span>(digite um email válido)</span></label>
-              <input type="email" id="event-email " />
+              <input 
+                type="email" 
+                id="event-email"
+                required
+              />
             </div>
   
             <div class="input-wrapper">
               <label for="event-password">Senha <span>(mínimo de 6 caracteres)</span></label>
-              <input type="password" id="event-password " />
+              <input 
+                type="password" 
+                id="event-password" 
+                required
+                minlength="6"
+              />
             </div>
           </div>
         </fieldset>
@@ -56,7 +70,12 @@
           <div class="fieldset-wrapper">
             <div class="input-wrapper">
               <label for="event-name-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-              <input type="text" id="event-name-mentor">
+              <input 
+                type="text" 
+                id="event-name-mentor"
+                required
+                minlength="4"  
+              />
             </div>
           </div>
         </fieldset>
@@ -71,17 +90,29 @@
             <div class="col-3">
               <div class="input-wrapper">
                 <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
-                <input type="date" id="event-date" />
+                <input 
+                  type="date" 
+                  id="event-date"
+                  required
+                />
               </div>
 
               <div class="input-wrapper">
                 <label for="event-begin">Das</label>
-                <input type="time" id="event-begin" />
+                <input 
+                  type="time" 
+                  id="event-begin" 
+                  required 
+                />
               </div>
 
               <div class="input-wrapper">
                 <label for="event-end">Até</label>
-                <input type="time" id="event-end" />
+                <input 
+                  type="time" 
+                  id="event-end" 
+                  required 
+                />
               </div>
             </div>
           </div>
