@@ -25,6 +25,10 @@ body::before {
   z-index: -1;
 }
 
+h1, legend {
+  font-family: "Staatliches", sans-serif;
+}
+
 .page {
   width: 750px;
   margin: 0 auto;
@@ -35,8 +39,6 @@ header {
 }
 
 header h1 {
-  font-family: "Staatliches", sans-serif;
-
   color: #FFF;
 
   font-size: 36px;
@@ -58,4 +60,85 @@ header p {
 
 header img {
   margin-bottom: 32px;
+}
+
+form {
+  min-height: 300px;
+
+  background: #FFF;
+
+  border-radius: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  color: #FFF;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+
+  text-align: center;
+
+  background: #F67669;
+  padding: 50px;
+
+  height: 128px;
+  width: 100%;
+
+  border-radius: 20px 20px 0 0;
+}
+
+.fieldset-wrapper {
+  padding: 64px;
+}
+
+.input-group {
+  display: flex;
+  gap: 22px;
+}
+
+.input-group input {
+  width: 300px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  color: #4E4958;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin: 18px 0 7px;
+}
+
+.input-wrapper input {
+  height: 55px;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  
+  background: #FAFAFC;
+  padding: 0 24px;
+  
+  color: #4E4958;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.input-wrapper span {
+  color: #C1BCCC;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
 }
