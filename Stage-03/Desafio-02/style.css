@@ -257,3 +257,7 @@ fieldset {
   background: #db6255;
   cursor: pointer;
 }
+
+input:invalid {
+  border: 1px solid #FF1010;
+}
