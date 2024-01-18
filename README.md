@@ -6,7 +6,7 @@
   
   <h2>Sobre o Programa:</h2>
   <p>
-    ⚛️ O programa tem como base o método 7-2-1, sendo que 70% coding, 20% networking e 10% branding. <br />
+    ⚛️ A fomação tem como base o método 7-2-1, sendo que 70% coding, 20% networking e 10% branding. <br />
     👨‍💻 O Explorer é focado em desenvolver as habilidades técnicas e comportamentais, alinhados com o mercado de trabalho. <br /> 
     🥇 Para o Dev se tornar um destaque e ter uma carreira sólida na programação.
   </p>
@@ -91,6 +91,9 @@
     <span>Desafios do Stage 03:</span>
     <li>
       <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-01" target="_blank">Stage 03: Projeto 01 - Desafio 01</a>
+    </li>
+    <li>
+      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-02" target="_blank">Stage 03: Projeto 02 - Desafio 02</a>
     </li>
   </ul>
   <hr />
