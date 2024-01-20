@@ -78,8 +78,11 @@ ul li {
   max-width: 25.7rem;
 
   display: flex;
-  align-items: center;
   gap: 3.8rem;
+}
+
+ul li + li {
+  margin-top: 3.2rem;
 }
 
 ul li span {
@@ -87,4 +90,28 @@ ul li span {
   font-weight: 800;
   line-height: 8.0rem;
   letter-spacing: -2px;
+}
+
+/* media queries */
+
+@media (min-width: 700px) {
+  body {
+    padding: 8rem;
+  }
+
+  main {
+    max-width: 1020px;
+    display: flex;
+    gap: 10rem;
+  }
+
+  main > div {
+    max-width: 484px;
+  }
+
+  ul li {
+    gap: 54px;
+    align-items: center;
+    max-width: 450px;
+  }
 }
