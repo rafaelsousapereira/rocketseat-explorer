@@ -110,8 +110,12 @@ ul li span {
   }
 
   ul li {
-    gap: 54px;
+    gap: 5.3rem;
     align-items: center;
     max-width: 450px;
+  }
+
+  ul li + li {
+    margin-top: 3.2rem;
   }
 }
