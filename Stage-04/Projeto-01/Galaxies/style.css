@@ -4,19 +4,44 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family: "Mulish", sans-serif;
+}
+
 body {
+  display: grid;
+  justify-content: center;
+
   background-color: #121214;
 
   padding: 72px 104px;
+}
+
+header h1 {
+  color: #02799D;
+
+  font-size: 58px;
+  font-weight: 900;
+  font-family: "Mulish", sans-serif;
+}
+
+header p {
+  color: #E1E1E6;
+
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+
+  margin-top: 8px;
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(3, 370px);
 
-  place-content: center;
-
   gap: 48px 60px;
+
+  margin-top: 62px;
 }
 
 .card {
@@ -32,7 +57,6 @@ main {
 
   font-size: 36px;
   font-weight: 900;
-  font-family: "Mulish", sans-serif;
 
   padding: 24px 32px 0;
 }
@@ -42,7 +66,6 @@ main {
   
   font-size: 18px;
   font-weight: 600;
-  font-family: "Mulish", sans-serif;
 
   padding: 24px 32px 32px;
 }
