@@ -96,6 +96,18 @@
       <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-02" target="_blank">Stage 03: Projeto 02 - Desafio 02</a>
     </li>
   </ul>
+
+  <ul>
+    <span>Projetos/Desafios - Stage 04:</span>
+    <li>
+      <a 
+        href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-04/Projeto-01/Galaxies"
+        target="_blank"
+      >
+        Stage 04: Projeto 01: Galaxies
+      </a>
+    </li>
+  </ul>
   <hr />
   <footer>
     <p align="center">Feito com 💜 by <a href="https://github.com/rafaelsousapereira">Rafael Sousa Pereira</a></p>
