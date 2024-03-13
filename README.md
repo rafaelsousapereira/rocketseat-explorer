@@ -107,7 +107,18 @@
         Stage 04: Projeto 01: Galaxies
       </a>
     </li>
+
+  <li>
+    <a 
+      href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-04/Projeto-02/Fotoblog"
+      target="_blank"
+    >
+      Stage 04: Projeto 02: Foto Blog
+    </a>
+   </li>
+    
   </ul>
+  
   <hr />
   <footer>
     <p align="center">Feito com 💜 by <a href="https://github.com/rafaelsousapereira">Rafael Sousa Pereira</a></p>
