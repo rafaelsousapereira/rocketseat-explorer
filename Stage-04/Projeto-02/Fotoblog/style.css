@@ -126,14 +126,6 @@ main h1 {
   aspect-ratio: 16/9;
   object-fit: cover;
 
-  /* transition-property: all;
-  transition-duration: 200ms;
-  transition-delay: 0;
-  transition-timing-function: ease-out; */
-
-   /* adicionando transition para cada propriedade. */
-  /* transition: filter 200ms ease-out, transform 600ms ease-in; */
-
   transition: all 200ms ease-out;
 }
 
