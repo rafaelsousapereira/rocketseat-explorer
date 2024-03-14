@@ -126,7 +126,9 @@ main h1 {
   aspect-ratio: 16/9;
   object-fit: cover;
 
-  transition: all 200ms ease-out;
+  transition: all 200ms ease-in-out;
+
+  display: block;
 }
 
 .item img:hover {
@@ -159,8 +161,40 @@ main h1 {
   text-transform: uppercase;
 }
 
-footer p {
+footer {
   text-align: center;
   padding: 1.6rem;
   font-weight: 600;
+}
+
+header {
+  --startY: -100%;
+  animation: move 2s;
+}
+
+footer {
+  --startY: 100%;
+  animation: move 2s;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(var(--startY));
+  }
+}
+
+.item {
+  --delay: .4s;
+  animation: appear .4s var(--delay) backwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
 }
