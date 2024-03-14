@@ -125,8 +125,6 @@ main h1 {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
-
-  filter: grayscale(1);
 }
 
 .item img:hover {
