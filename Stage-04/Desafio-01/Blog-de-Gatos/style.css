@@ -18,8 +18,8 @@ body {
   font-size: 1.6rem;
 }
 
-#app {
-  
+html, body, input {
+  font-family: "Mulish", sans-serif;
 }
 
 .thumbnail {
