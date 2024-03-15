@@ -9,8 +9,34 @@
 
 :root {
   font-size: 62.5%;
+
+  --background-color-base-100: lightgray;
+  --background-color-base-200: #065E7C;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+.thumbnail {
+  max-width: 43.4rem;
+  max-height: 22.0rem;
+
+  border: 1px solid red;
+  border-radius: 5px;
+
+  background-color: var(--background-color-base-100);
+}
+
+.like-unlike-icons {
+  background-color: var(--background-color-base-200);
+}
+
+.thumbnail-sidebar {
+  width: 151px;
+  height: 84px;
+
+  border-radius: 5px;
+  background: var(--background-color-base-100);
+  border: 1px solid red;
 }
