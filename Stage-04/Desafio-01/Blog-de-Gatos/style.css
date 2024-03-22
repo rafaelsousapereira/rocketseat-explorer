@@ -29,17 +29,17 @@ html, body, input {
 
 #app {
   display: grid;
-  grid-template-rows: max-content 1fr max-content;
+  grid-template-rows: max-content 1fr max-content 1fr;
   height: 100vh;
 }
 
-header {
+.header {
   padding: 1.2rem 2.8rem;
 
   background-color: var(--background-color-base-200);
 }
 
-header,
+.header,
 .navbar {
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ header,
   padding: .8rem;
 }
 
-header form {
+.header form {
   flex: 1;
 }
 
@@ -201,20 +201,20 @@ aside {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   padding: 1.6rem;
 
-  color: var(--color-base-100);
   background-color: var(--background-color-base-200);
-
-  margin-top: 4rem;
+  color: var(--color-base-100);
 }
 
 /* media queries */
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  header {
+  .header {
     padding: 1.2rem 11.2rem;
   }
   
@@ -240,6 +240,10 @@ footer {
 
     margin-right: 5.6rem;
   }
+
+  footer {
+    min-height: 20vh;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -251,11 +255,11 @@ footer {
     "footer footer footer";
   }
 
-  #app > header {
+  #app > .header {
     grid-area: header;
   }
 
-  header {
+  .header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,12 +293,37 @@ footer {
   .header-description {
     display: inline-flex;
     align-items: center;
-    gap: 36rem;
+    gap: 36.6rem;
 
     margin-bottom: 3.1rem;
   }
 
+  .header-description h1 {
+    width: 34.2rem;
+  }
+
+  .header-description .like-unlike {
+    margin: 0;
+  }
+
   #app > footer {
     grid-area: footer;
+  }
+}
+
+/* keyframes */
+.header {
+  --startY: -100%;
+  animation: move .2s;
+}
+
+footer {
+  --startY: 100%;
+  animation: move .2s;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(var(--startY));
   }
 }
