@@ -82,52 +82,17 @@
   
   <ul>
     <span>Avançando no HTML e CSS</span>
-    <li>
-      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03">Stage 03</a>
-    </li>
-  </ul>
-
-  <ul>
-    <span>Desafios do Stage 03:</span>
-    <li>
-      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-01" target="_blank">Stage 03: Projeto 01 - Desafio 01</a>
-    </li>
-    <li>
-      <a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-02" target="_blank">Stage 03: Projeto 02 - Desafio 02</a>
-    </li>
-  </ul>
-
-  <ul>
-    <span>Projetos/Desafios - Stage 04:</span>
-    <li>
-      <a 
-        href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-04/Projeto-01/Galaxies"
-        target="_blank"
-      >
-        Stage 04: Projeto 01: Galaxies
-      </a>
-    </li>
-
-  <li>
-    <a 
-      href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-04/Projeto-02/Fotoblog"
-      target="_blank"
-    >
-      Stage 04: Projeto 02: Foto Blog
-    </a>
-   </li>
-
-   <li>
-    <a 
-      href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-04/Desafio-01/Blog-de-Gatos"
-      target="_blank"
-    >
-      Stage 04: Desafio 01: Blog de gatos
-    </a>
-   </li>    
-  </ul>
-
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Projeto-01" target="_blank">Stage 03: Projeto 01</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Projeto-02" target="_blank">Stage 03: Projeto 02</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Projeto-03/Cheesecake" target="_blank">Stage 03: Projeto 03/Cheesecake</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Projeto-04/Galaxies" target="_blank">Stage 03: Projeto-04/Galaxies</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Projeto-05/Fotoblog" target="_blank">Stage 03: Projeto-05/Fotoblog</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-01" target="_blank">Stage 03: Desafio-01</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-02" target="_blank">Stage 03: Desafio-02</a></li>
+    <li><a href="https://github.com/rafaelsousapereira/rocketseat-explorer/tree/main/Stage-03/Desafio-03/Blog-de-Gatos" target="_blank">Stage 03: Desafio-03/Blog-de-Gatos</a></li>
+    
   <hr />
+  
   <footer>
     <p align="center">Feito com 💜 by <a href="https://github.com/rafaelsousapereira">Rafael Sousa Pereira</a></p>
     <p align="right"> <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg"></p>
