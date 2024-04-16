@@ -1,13 +1,17 @@
-Como resolver problemas na linguagem de programação?
-Como melhorar minha lógica de programação?
+# Fluxo da aplicação
 
- 1. Identifique o que já sabe e faça!
- 2. Quebre o grande problema em problemas menores!
+- Caminhos lógicos baseado em algum dado ou informação
 
-O que estou aprendendo de ferramentas do JS
+# Boas práticas na programação
 
- [] executar funções
- [] variáveis
- [] concatenação
- [] tipo de dado: String
- [] Básica de sintaxe
+- Não repetir código
+
+[] Tipo de dado: Boolean (true | false)
+[] if/else
+[] Operadores comparativos
+  - > (maior que)
+  - < (menor que)
+  - >= (maior ou igual a)
+  - <= (menor ou igual a)
+  - == (igual a)
+  - != (diferente de)
