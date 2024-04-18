@@ -28,5 +28,5 @@ while (Number(result) != randomNumber) {
 }
 
 xAttempts == 1 
-  ? alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativa`)
-  : alert(`Parabéns! Você advinhou o número em ${xAttempts} tentativas`)
+  ? alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativa`)
+  : alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativas`)
