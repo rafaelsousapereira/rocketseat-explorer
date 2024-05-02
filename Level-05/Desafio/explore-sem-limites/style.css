@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    --webkit-font-smooting: antialised;
+    --moz-osx-font-smooting: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+html, body {
+    font-family: "Mulish", sans-serif;
+
+    color: #312D64;
+}
+
+#app {
+    width: 43rem;
+    margin: 0 auto;
+}
+
+.home {
+    text-align: center;
+
+    margin-bottom: 9.4rem;
+}
+
+.home .h1-title {
+    font-size: 3.2rem;
+    font-weight: 900;
+
+    color: #B52184;
+
+    margin: 1.7rem 0 .5rem;
+}
+
+.home p {
+    font-size: 20px;
+    font-weight: 600;
+    
+    color: #312D64;
+
+    margin-bottom: 3.5rem;
+}
+
+.grid-container {
+    background-color: #312D64;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 5.2rem;
+}
+
+.grid-container img {
+    width: 9.8rem;
+    height: 9.8rem;
+
+    margin-bottom: 3.4rem;
+}
+
+.grid-container .cards {
+    width: 35.2rem;
+    
+    margin-bottom: 5rem;
+    padding: 2.6rem;
+    
+    background-color: #FFF;
+
+    border-radius: 2rem;
+}
+
+.group-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.group-card h2 {
+    font-size: 3rem;
+    font-weight: 900;
+
+    color: #B52184;
+}
+
+.group-card p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.form-container {
+    width: 43rem;
+
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 0;
+}
+
+.form-container h1 {
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 32px;
+    font-weight: 900;
+
+    margin: 7.8rem 0 4.4rem;
+
+    color: #B52184;
+}
+
+.form-container fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    margin: 0 0 6.5rem;
+
+    border: none;
+}
+
+.group-form {
+    display: flex;
+    gap: 1.2rem;
+
+    width: 34.8rem;
+
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+
+    position: relative;
+}
+
+.group-form input {    
+    width: 28.2rem;
+
+    color: #312D64;
+    font-size: 1.6rem;
+
+    border: none;
+}
+
+.group-form input::placeholder {
+    color: #312D64;
+    font-size: 1.6rem;
+}
+
+form textarea {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+    width: 348px;
+    height: 9.8rem;
+
+    padding: 12px 16px 16px 16px;
+
+    color: #312D64;
+    font-size: 1.6rem;
+
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+}
+
+form .btn-form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 16rem;
+    height: 45px;
+
+    padding: 16px;
+
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+    
+    color: #FFF;
+
+    border: 1px solid #302C63;
+    border-radius: 16px;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+footer {
+    color: #FFF;
+
+    text-align: center;
+    font-size: 19.381px;
+    font-weight: 600;
+
+    padding: 1.6rem;
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
