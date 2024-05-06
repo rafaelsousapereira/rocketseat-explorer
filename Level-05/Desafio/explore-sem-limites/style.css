@@ -10,6 +10,17 @@
 
 :root {
     font-size: 62.5%;
+
+    --primary-color-base: #312D64;
+    --second-color-base: #FFFFFF;
+
+    --background-color-base: #F9F4FB;
+    --color-title-base: #B52184;
+
+    --primary-background-linear-gradiend: #343193;
+    --second-background-linear-gradiend: #302C63;
+
+    --background-image-stars: lightgray;
 }
 
 body {
@@ -20,8 +31,8 @@ body {
 html, body {
     font-family: "Mulish", sans-serif;
 
-    color: #312D64;
-    background: #F9F4FB;
+    color: var(--primary-color-base);
+    background: var(--background-color-base);
 }
 
 #app {
@@ -51,22 +62,24 @@ html, body {
     font-size: 3.2rem;
     font-weight: 900;
 
-    color: #B52184;
+    color: var(--color-title-base);
 
     margin: 1.7rem 0 .5rem;
+}
+
+.home .btn-arrow-bottom:hover {
+    cursor: pointer;
 }
 
 .home p {
     font-size: 20px;
     font-weight: 600;
     
-    color: #312D64;
-
     margin-bottom: 3.5rem;
 }
 
 .grid-container {
-    background-color: #312D64;
+    background-color: var(--primary-color-base);
 
     display: flex;
     justify-content: center;
@@ -89,7 +102,7 @@ html, body {
     margin-bottom: 5rem;
     padding: 2.6rem;
     
-    background-color: #FFF;
+    background-color: var(--second-color-base);;
 
     border-radius: 2rem;
 }
@@ -104,7 +117,7 @@ html, body {
     font-size: 3rem;
     font-weight: 900;
 
-    color: #B52184;
+    color: var(--color-title-base);
 }
 
 .group-card p {
@@ -115,7 +128,7 @@ html, body {
 .form-container {
     width: 43rem;
 
-    background-color: #FFF;
+    background-color: var(--second-color-base);;
 
     display: flex;
     flex-direction: column;
@@ -134,7 +147,7 @@ html, body {
 
     margin: 7.8rem 0 4.4rem;
 
-    color: #B52184;
+    color: var(--color-title-base);
 }
 
 .form-container fieldset {
@@ -155,7 +168,7 @@ html, body {
 
     padding: 1.2rem 1.6rem 1.2rem 1.4rem;
 
-    border: 1px solid #312D64;
+    border: 1px solid var(--primary-color-base);
     border-radius: 1.6rem;
 
     position: relative;
@@ -164,14 +177,14 @@ html, body {
 .group-form input {    
     width: 28.2rem;
 
-    color: #312D64;
+    color: var(--primary-color-base);
     font-size: 1.6rem;
 
     border: none;
 }
 
 .group-form input::placeholder {
-    color: #312D64;
+    color: var(--primary-color-base);
     font-size: 1.6rem;
 }
 
@@ -185,10 +198,10 @@ form textarea {
 
     padding: 12px 16px 16px 16px;
 
-    color: #312D64;
+    color: var(--primary-color-base);
     font-size: 1.6rem;
 
-    border: 1px solid #312D64;
+    border: 1px solid var(--primary-color-base);
     border-radius: 1.6rem;
 }
 
@@ -209,15 +222,15 @@ form .btn-form {
     line-height: 2.4rem;
     text-transform: capitalize;
     
-    color: #FFF;
+    color: var(--second-color-base);;
 
-    border: 1px solid #302C63;
+    border: 1px solid var(--second-background-linear-gradiend);
     border-radius: 16px;
-    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    background: linear-gradient(96deg, var(--primary-background-linear-gradiend) 0%, var(--second-background-linear-gradiend) 99.68%);
 }
 
 footer {
-    color: #FFF;
+    color: var(--second-color-base);;
 
     text-align: center;
     font-size: 19.381px;
@@ -225,7 +238,7 @@ footer {
 
     padding: 1.6rem;
 
-    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    background: linear-gradient(96deg, var(--primary-background-linear-gradiend) 0%, var(--second-background-linear-gradiend) 99.68%);
 }
 
 /* Media Queries */
@@ -307,7 +320,7 @@ footer {
 
         margin-left: 10.9rem;
 
-        background: #F9F4FB;
+        background: var(--background-color-base);
     }
 
     .form-container h1 {
@@ -318,6 +331,6 @@ footer {
         width: 64.4rem;
         height: 61.2rem;
 
-        background: url('/assets/stars-image.png') lightgray 50% / cover no-repeat;
+        background: url('/assets/stars-image.png') var(--background-image-stars) 50% / cover no-repeat;
     }
 }
