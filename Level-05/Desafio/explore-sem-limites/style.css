@@ -21,6 +21,7 @@ html, body {
     font-family: "Mulish", sans-serif;
 
     color: #312D64;
+    background: #F9F4FB;
 }
 
 #app {
@@ -36,6 +37,10 @@ html, body {
     text-align: center;
 
     margin-bottom: 9.4rem;
+}
+
+.group-home {
+    min-width: 43rem;
 }
 
 .home .astronaut-image {
@@ -224,37 +229,95 @@ footer {
 }
 
 /* Media Queries */
-@media (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 768px) {
     .container .home {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        gap: 2.8rem;
+    }
+
+    .grid-container .cards {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* ajuste conteúdo da home */
+    .group-home {
+        position: relative;
+
+        margin-left: 11rem;
+        width: 55.4rem;
+    }
+
+    .group-home .h1-title {
+        font-size: 5.8rem;
+    }
+
+    .group-home p {
+        font-size: 3.2rem;
+        text-align: start;
+    }
+
+    .group-home .btn-arrow-bottom {
+        min-width: 5.8rem;
+
+        position: absolute;
+        left: 0;
+
+        margin-top: 11.6rem;
     }
 
     .astronaut-image {
-        margin-right: 3rem;    
+        width: 60rem;
+
+        margin-right: 2.9rem;
     }
 
-    .group-home {
-        margin-left: 10.9rem;
-    }
-
-    .btn-arrow-bottom  {
-        display: flex;
-
-        position: absolute;
-
-        margin-top: 2rem;
-    }
-
+    /* ajustes conteúdo dos cards */
     .grid-container {
         display: flex;
         flex-direction: row;
         gap: 6rem;
     }
 
+    .grid-container .cards {
+        min-width: 36.6rem;
+        min-height: 44.8rem;
+    }
+
+    .grid-container h2 {
+        font-size: 3.5rem;
+    }
+
+    .grid-container p {
+        font-size: 1.9rem;
+    }
+
+    /* ajustes conteúdo do formulário */
     .form-container {
-        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3.2rem;
+
+        width: 91.9%;
+
+        margin-left: 10.9rem;
+
+        background: #F9F4FB;
+    }
+
+    .form-container h1 {
+        font-size: 4.2rem;
+    }
+
+    .form-container .stars-image {
+        width: 64.4rem;
+        height: 61.2rem;
+
+        background: url('/assets/stars-image.png') lightgray 50% / cover no-repeat;
     }
 }
