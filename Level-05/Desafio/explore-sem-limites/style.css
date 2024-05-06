@@ -67,8 +67,14 @@ html, body {
     margin: 1.7rem 0 .5rem;
 }
 
+.home .btn-arrow-bottom {
+    transition: all 370ms ease-out;
+}
+
 .home .btn-arrow-bottom:hover {
     cursor: pointer;
+
+    transform: scale(1.08);
 }
 
 .home p {
@@ -105,6 +111,15 @@ html, body {
     background-color: var(--second-color-base);;
 
     border-radius: 2rem;
+
+    transition: all 370ms ease-out;
+}
+
+.grid-container .cards:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+
+    filter: drop-shadow(18px 18px 22px #343193) contrast(200%);
 }
 
 .group-card {
