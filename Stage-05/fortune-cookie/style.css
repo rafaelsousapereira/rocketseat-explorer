@@ -148,7 +148,7 @@ img {
 }
 
 .screen2 button:hover {
-  background: rgba(255, 149, 0, 0.90);
+  background: #d47d03;
 }
 
 @keyframes moveup {
