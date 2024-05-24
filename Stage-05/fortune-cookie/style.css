@@ -54,6 +54,11 @@ p {
   line-height: normal;
 }
 
+.screen1 button {
+  background: #FFF;
+  border: 0;
+}
+
 img {
   margin-top: 2.6rem;
 }

@@ -13,13 +13,15 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="screen1 hide">
+  <main class="screen1">
     <h1>Qual é a sua sorte de hoje?</h1>
     <p>Abra o biscoito e descubra!</p>
-    <img class="cookie-1" src="./assets/biscoito-1.svg" alt="Biscoito da Sorte" />
+    <button id="btnFortuneCookie">
+      <img class="cookie-1" src="./assets/biscoito-1.svg" alt="Biscoito da Sorte" />
+    </button>
   </main>
 
-  <main class="screen2 ">
+  <main class="screen2 hide">
     <h2>Aqui está a sua sorte de hoje:</h2>
 
     <div class="message">
@@ -27,7 +29,9 @@
     </div>
 
     <img class="cookie-2" src="./assets/biscoito-2.svg" alt="Biscoito da Sorte aberto" />
-    <button>Abrir outro biscoito</button>
+    <button id="btnOpenOtherCookie">Abrir outro biscoito</button>
   </main>
+
+  <script src="./main.js"></script>
 </body>
 </html>
