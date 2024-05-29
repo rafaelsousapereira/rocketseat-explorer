@@ -1,6 +1,3 @@
-import funcaoPadrao, { date, greeting } from './utils.js'
+import { sum as soma } from './utils.js'
 
-// console.log(date)
-// console.log(greeting('fulano'))
-
-funcaoPadrao('rafa')
+console.log(soma(20, 34))
