@@ -1,7 +1,9 @@
-const today = Date.now()
+const date = new Date()
 
-// exportando um valor já existente
-const double = number => number * 2
+const greeting = name => `hello ${name}`
 
-// exportando diversos
-export { today, double }
+export default function (argument) {
+  console.log(date, greeting(argument))
+}
+
+export { date, greeting }

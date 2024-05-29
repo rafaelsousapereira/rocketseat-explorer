@@ -1,3 +1,6 @@
-import { today, double } from './utils.js'
+import funcaoPadrao, { date, greeting } from './utils.js'
 
-console.log(today, double(5))
+// console.log(date)
+// console.log(greeting('fulano'))
+
+funcaoPadrao('rafa')
