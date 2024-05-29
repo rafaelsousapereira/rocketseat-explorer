@@ -1,3 +1,3 @@
-import qualquerNome from './utils.js' // nessa linha ele importa e já executa o arquivo
+import { today, double } from './utils.js'
 
-console.log(qualquerNome)
+console.log(today, double(5))

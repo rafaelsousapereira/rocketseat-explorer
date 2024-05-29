@@ -1,3 +1,7 @@
-const message = "mensagem" // essa variável fica isolada nesse arquivo, e não consigo usar ela em outro lugar
+const today = Date.now()
 
-export default message
+// exportando um valor já existente
+const double = number => number * 2
+
+// exportando diversos
+export { today, double }
